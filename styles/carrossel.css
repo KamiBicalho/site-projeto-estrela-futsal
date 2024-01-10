@@ -1,0 +1,9 @@
+.carrossel {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom:6rem;
+}
+
+.carrossel__imagem {
+    width: 60vw;
+}

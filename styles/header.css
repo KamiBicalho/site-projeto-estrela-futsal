@@ -1,0 +1,25 @@
+
+.cabecalho {
+    background: var(--cor-fundo-destaque);
+    padding: 4vw 6vw;
+}
+
+.cabecalho__secao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho__menu__imagem {
+    width: 8vw;
+}
+
+.cabecalho__botao {
+    text-decoration: none;
+    background: var(--background);
+    padding: 1rem 2rem;
+    border-radius: 1in;    
+    font-size: 1.2rem;
+    color: var(--cor-texto-padrao);
+    text-transform: uppercase;
+}

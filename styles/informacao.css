@@ -1,0 +1,29 @@
+.informacao__container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem 0;
+}
+
+.imagem__lateral {
+    width: 40vw;
+}
+
+.informacao__container__paragrafo {
+    padding: 1.5rem;
+    text-align: center;
+    line-height: 130%
+
+}
+
+.informacao__container__box {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 1rem;
+    background: var(--cor-fundo-destaque);
+    border-radius: 1rem;
+}
+
+.strong_box {
+    color: var(--cor-texto-padrao);
+    text-decoration: underline;
+}

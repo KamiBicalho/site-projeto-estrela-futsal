@@ -1,0 +1,21 @@
+.inicio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--cor-texto-padrao);
+    padding: 5rem 1rem;
+}
+
+.inicio__apresentacao__titulo {
+    font-size: 1.8rem;
+}
+
+.inicio__apresentacao__imagem {
+    width: 60vw;
+    margin: 1.5rem;
+}
+
+.inicio__apresentacao__texto {
+    margin: 2rem;
+    line-height: 140%
+}

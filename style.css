@@ -1,0 +1,26 @@
+@import url(/styles/reset.css);
+@import url(/styles/header.css);
+@import url(/styles/section-inicio.css);
+@import url(/styles/carrossel.css);
+@import url(/styles/informacao.css);
+
+:root {
+    --background: #000000;
+    --cor-fundo-destaque: #A57737;
+    --cor-texto-destaque: #B8986B;
+    --cor-texto-padrao: #ffffff;
+    --cor-destaque-secundaria: #DFD1BC;
+    --cor-botao-doacao: #89501C;
+}
+
+body {
+    background: var(--background);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: var(--cor-texto-padrao);
+}
+
+strong {
+    font-weight: 800;
+    color: var(--cor-texto-destaque);
+}
