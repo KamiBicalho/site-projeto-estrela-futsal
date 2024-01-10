@@ -1,0 +1,39 @@
+.contatos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem 0;
+}
+
+.contatos__titulo {
+    background: var(--cor-destaque-secundaria);
+    padding: 2rem 4rem;
+    color: var(--cor-texto-secundario);
+    font-weight: 800;
+    line-height: 130%
+}
+
+.contatos_link, .contatos__redes-sociais__link {
+    text-decoration: none;
+    color: var(--cor-texto-padrao);
+}
+
+.contatos_link {
+    padding: 1rem 2rem;
+    background: var(--cor-botao-doacao);
+    border-radius: 1rem;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.contatos__redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:3rem;
+}
+
+.contatos__redes-sociais__logo {
+    width: 2rem;
+    margin: 0 1rem;
+}

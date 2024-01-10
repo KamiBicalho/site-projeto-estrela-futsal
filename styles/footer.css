@@ -1,0 +1,10 @@
+.footer {
+    background: var(--cor-fundo-destaque);
+    padding: 2rem 4rem ;
+    color: var(--cor-texto-destaque);
+}
+
+.footer__item__link {
+    text-decoration: none;
+    color: var(--cor-destaque-secundaria);
+}

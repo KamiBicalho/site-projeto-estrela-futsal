@@ -3,9 +3,12 @@
 @import url(/styles/section-inicio.css);
 @import url(/styles/carrossel.css);
 @import url(/styles/informacao.css);
+@import url(/styles/contatos.css);
+@import url(/styles/footer.css);
 
 :root {
     --background: #000000;
+    --cor-texto-secundario: #000000;
     --cor-fundo-destaque: #A57737;
     --cor-texto-destaque: #B8986B;
     --cor-texto-padrao: #ffffff;
